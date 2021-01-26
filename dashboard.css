@@ -1,0 +1,129 @@
+	   h1{
+			color: #640000;
+			text-align: center;
+			text-shadow: 2px 2px white;
+			font-style: italic;
+			font-weight: bold;
+			font-size: 80px;
+			font-family: Verdana, Genova, Georgia, sans-serif, serif;
+		}
+
+		#mySidenav a {
+		  position: absolute;
+		  left: -80px;
+		  transition: 0.3s;
+		  padding: 15px;
+		  width: 150px;
+		  text-decoration: none;
+		  text-shadow: 2px 2px black;
+		  font-size: 20px;
+		  color: white;
+		  border-radius: 0 5px 5px 0;
+		  cursor: auto;
+		}
+
+		#mySidenav a:hover {
+		  left: 0;
+		}
+
+		#announcement {
+		  top: 20px;
+		  background-color: #28447e;
+		}
+
+		#calendar {
+		  top: 80px;
+		  background-color: #28447e;
+		}
+
+		#history {
+		  top: 140px;
+		  background-color: #28447e;
+		}
+
+		#course {
+		  top: 200px;
+		  background-color: #28447e;
+		}
+		p{
+			color: black;
+		}
+
+		.note{
+			border: 3px;
+			border-style: inset;
+			padding-left: 60px;
+			padding-right: 60px;
+			margin-top: 30px;
+			margin-right: 70px;
+			text-align: justify;
+
+		}
+
+		.note h2 {
+			color: darkblue;
+			text-align: center;
+			font-size: 40px;
+			text-shadow: 1px 1px black;
+		}
+
+		.note p{
+			line-height: 35px;
+			font-size: 17px;
+		}
+
+		
+
+		.dashboardPicture{ 
+			 
+			  width: 20px;
+			  height: 20px;
+		}
+
+		
+		.imahe{
+			border: 2px solid white;
+			padding: 10px;
+			column-gap: 10px;
+			display: inline-block;
+			border-spacing: 25px 25px;
+
+		}
+		.imahe img{
+			padding-right: 3px;
+		}
+
+		.imahe:hover {
+		  border: 1px solid #777;
+		}
+
+		
+
+		.desc {
+		  padding: 15px;
+		  text-align: center;
+		  font-size: 20px
+		}
+
+		 .gallery{
+		 	border: 2px;
+		 	border-style: hidden;
+		 	padding-left: 250px;
+		 }
+		 .dashboard{
+		 	border: 3px;
+			border-style: inset;
+			padding-left: 60px;
+			padding-right: 60px;
+			margin-top: 330px;
+			margin-right: 70px;
+			text-align: justify;
+		 }
+
+		 .column1of3, .column2of3, .column3of3{
+		 	width: 300px;
+		 	float: left;
+		 	margin: 10px;
+		 }
+
+		

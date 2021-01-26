@@ -1,0 +1,165 @@
+ h1{
+      color: #640000;
+      text-align: center;
+      text-shadow: 2px 2px white;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 80px;
+      font-family: Verdana, Genova, Georgia, sans-serif, serif;
+    }
+
+    #mySidenav a {
+      position: absolute;
+      left: -80px;
+      transition: 0.3s;
+      padding: 15px;
+      width: 150px;
+      text-decoration: none;
+      text-shadow: 2px 2px black;
+      font-size: 20px;
+      color: white;
+      border-radius: 0 5px 5px 0;
+    }
+
+    #mySidenav a:hover {
+      left: 0;
+    }
+
+    #announcement {
+      top: 20px;
+      background-color: #28447e;
+    }
+
+    #calendar {
+      top: 80px;
+      background-color:#28447e;
+    }
+
+    #history {
+      top: 140px;
+      background-color: #28447e;
+    }
+
+    #course {
+      top: 200px;
+      background-color: #28447e;
+    }
+
+
+
+
+body {
+  position: bottom;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    filter: blur(10px);
+  }
+}
+
+
+ #first_semester{
+  border: 2px hidden;
+  padding: 2px 2px 2px 2px;
+  margin-left: 850px;
+  margin-bottom: -150px;
+ }
+
+.calendar {
+  position: center;
+  width: 300px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 5px 50px rgba(#000, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px hidden;
+  margin-left: 500px;
+  -moz-box-shadow: 5px 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px 5px #777777;
+   box-shadow: 2px 2px 2px 2px;
+  margin-bottom: 15px;
+}
+
+.calendar__picture {
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  color: #fff;
+  background: #262626 url("../images/headerBG.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+  
+  &::before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to top, rgba(#000, 0.25), rgba(#000, 0.1));
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  h3 {
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+.calendar__date {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 10px;
+  box-sizing: border-box;
+}
+
+.calendar__day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  font-weight: 600;
+  color: #262626;
+  
+  &:nth-child(7) {
+    color: #ff685d;
+  }
+}
+
+.calendar__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  color: #262626;
+
+  &:nth-child(7n) {
+    color: #ff685d;
+    font-weight: 700;
+  }
+  
+  &--current,
+  &:hover {
+    background-color: #009688;
+    color: #fff !important;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+
+
