@@ -1,1 +1,1 @@
-# Quezon-City-University-Learnign-Management-System
+# Quezon-City-University-Learning-Management-System
